@@ -1,2 +1,3 @@
 # my-test-automation
  test automation project
+This repo contains some examples of my work in API and Mobile UI test automation.  To see API work go to the TestApi.kt file and you can run the test.  The test is using an http wrapper utilizing Okhttp to do a GET request and then using Gson it is creating an object to do assertions on.  To see Mobile UI automation in Kotlin go to the TestAppUi.kt file.  The test is using the Page Object Model to do a simple check for some "Log In" text on an app.  To see Mobile UI automation in Java go to JavaTestAppUi.java to see the same test written in Java.  
