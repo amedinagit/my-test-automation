@@ -8,6 +8,6 @@ class TestAppUi: TestBase() {
     @Test
     fun loginPageTest() {
         loginPg.loginText.isDisplayed
-        //Assert.assertTrue(loginPg.loginText.isDisplayed)
+        //Assert.assertTrue(loginPg.loginText.isDisplayed, "log in page is not visible")
     }
 }
