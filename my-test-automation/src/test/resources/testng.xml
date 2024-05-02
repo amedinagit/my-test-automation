@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <listeners>
+        <listener class-name="listeners.Listeners"/>
+    </listeners>
+    <test name="Log in test">
+        <classes>
+            <!-- These are the tests to run -->
+            <class name="TestAppUi"/>
+            <!--<class name="com.sbc.tread.entertainment.Login"/>-->
+        </classes>
+    </test>
+</suite>
